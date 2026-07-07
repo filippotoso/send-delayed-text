@@ -1,0 +1,124 @@
+# =========================================================
+# Delphi / RAD Studio
+# =========================================================
+
+# File compilati
+*.dcu
+*.dcuil
+*.dcp
+*.bpl
+*.bpi
+*.lib
+*.a
+*.obj
+*.o
+*.tds
+*.map
+*.rsm
+
+# Eseguibili e output binari
+*.dll
+*.ocx
+*.so
+*.dylib
+*.apk
+*.aab
+*.ipa
+
+# File di debug
+*.pdb
+*.dbg
+*.jdbg
+*.prof
+
+# Cache e file temporanei Delphi
+*.identcache
+*.projdata
+*.local
+*.stat
+*.tvsconfig
+*.deployproj.local
+
+# File desktop/sessione IDE
+*.dsk
+*.dst
+*.groupproj.local
+
+# Backup e history Delphi
+__history/
+__recovery/
+*.~*
+*.bak
+*.old
+*.tmp
+
+# Cartelle di build comuni
+Win32/Debug
+Win64/Debug
+OSX32/Debug
+OSX64/Debug
+Linux64/Debug
+Android/Debug
+iOSDevice32/Debug
+iOSDevice64/Debug
+iOSSimulator/Debug
+Debug/
+__debug/
+__release/
+
+# Output MSBuild / RAD Studio
+bin/
+obj/
+Build/
+build/
+
+# =========================================================
+# FireMonkey / mobile
+# =========================================================
+
+# File generati per deployment mobile
+*.apk
+*.aab
+*.dex
+*.class
+
+# Android build
+.gradle/
+captures/
+local.properties
+
+# iOS / macOS
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+DerivedData/
+
+# =========================================================
+# Logs
+# =========================================================
+
+*.log
+*.err
+
+# =========================================================
+# Windows
+# =========================================================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================================================
+# macOS
+# =========================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================================================
+# IDE vari
+# =========================================================
+
+.vscode/
+.idea/
